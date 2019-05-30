@@ -1,11 +1,8 @@
-var express = require('express');
-var router = express.Router();
+var gear = require("./gear");
+var categories = require("./categories");
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  'use strict';
 
-  res.render('index', { title: 'Express' });
-});
-
-module.exports = router;
+module.exports = {
+  gear: gear,
+  categories: categories
+};
