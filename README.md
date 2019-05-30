@@ -1,15 +1,9 @@
 #### API for the Lighter lighter pack
 
-Basic API for Harry Potter related information -- to have a basic personal API for testing when building larger projects.
+Basic API for Lighter lighter pack project built with Node, Express, and Postgres - also using knex.js for routing, and handlebars for a basic front-end. Written in and linted for ES6.
 
-Built with Node, Express, and Postgres - also using knex.js for routing, handlebars
-
-and materialize css for the basic front-end.
-
-Written in and linted for ES6.
+Next Additions:
+- Bootstrap maybe using Less
 
   ***Available Endpoints:***
   - /endpoint
-
-
-`brew services start postgresql`
