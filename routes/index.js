@@ -1,8 +1,21 @@
-var gear = require("./gear");
-var categories = require("./categories");
+var express = require('express');
+var router = express.Router();
 
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  'use strict';
 
-module.exports = {
-  gear: gear,
-  categories: categories
-};
+  res.render('index', { title: 'Express' });
+});
+
+module.exports = router;
+
+// 
+// var gear = require("./gear");
+// var categories = require("./categories");
+//
+//
+// module.exports = {
+//   gear: gear,
+//   categories: categories
+// };
