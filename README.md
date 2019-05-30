@@ -10,3 +10,6 @@ Written in and linted for ES6.
 
   ***Available Endpoints:***
   - /endpoint
+
+
+`brew services start postgresql`
